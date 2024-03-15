@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-bar">
+            <a class="navbar-brand" href="#">Tourism Trip</a>
+            <div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Packages</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="search-banner">
+            <banner>
+                <h1 class="banner-heading">Book Your Tours</h1>
+                <form class="form">
+                    <select class="select-package">
+                        <option>London</option>
+                        <option>Canada</option>
+                        <option>India</option>
+                        <option>France</option>
+                        <option>china</option>
+                        <option>Switzerland</option>
+
+                    </select>
+                    <input type="date" class="input-date">
+                    <br />
+                    <button class="book-btn">book</button>
+                </form>
+
+            </banner>
+        </div>
+        <div class="Packages-items" id="places">
+            <h1 class="package-heading">Favourite Places</h1>
+            <div class="place-cards">
+                <div class="card">
+                    <div class="zoom-img">
+                        <div>
+                            <img class="img-card" src="https://cdn.getyourguide.com/img/tour/7d750a19cdb413fc.jpeg/98.jpg">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h2>Multi Day Trip</h2>
+                        <p class="country-name">Landon</p>
+                        <p class="cost">$1870 / Per Person</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="zoom-img">
+                        <div>
+                            <img class="img-card" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/a8/3c/28.jpg">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h2>Nayagara Falls</h2>
+                        <p class="country-name">Canada</p>
+                        <p class="cost">$2870 / Per Person</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="zoom-img">
+                        <div>
+                            <img class="img-card" src="https://cdn.getyourguide.com/img/tour/1ac623521c3cfaa199d982b1d90ebe14499a77e199a6fdae4b5ef68de4089751.png/132.webp">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h2>Taj Mahal, Agra</h2>
+                        <p class="country-name">India</p>
+                        <p class="cost">1800 / Per Person</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="zoom-img">
+                        <div>
+                            <img class="img-card" src="https://cdn.getyourguide.com/img/tour/cf879ee295abc8e4.jpeg/98.jpg">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h2>Ifil Tover, Paris</h2>
+                        <p class="country-name">France</p>
+                        <p class="cost">1870 / Per Person</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="zoom-img">
+                        <div>
+                            <img class="img-card" src="https://cf.bstatic.com/xdata/images/city/square250/683831.webp?k=bbe0665d459d2ca7a7be29dbae2f8f4c13924f320da1a2a7bdec4f30b1e9470a&" />
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h2>Shangai</h2>
+                        <p class="country-name">china</p>
+                        <p class="cost">$1870 / Per Person</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="zoom-img">
+                        <div>
+                            <img class="img-card" src="https://cf.bstatic.com/xdata/images/region/square250/70206.webp?k=cea309a5cedda1282f53b47232216fa8e54c210aea3597e1a073a0e221417ac6&">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h2>Canton Of Juris</h2>
+                        <p class="country-name">Landon</p>
+                        <p class="cost">$1870 / Per Person</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
